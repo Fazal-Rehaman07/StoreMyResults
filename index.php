@@ -4,7 +4,7 @@
           $username = $_GET['user'];
         }
         else{
-          header('location: signup.php');
+          header('location: login.php');
         }
 				if(isset($_POST['usn']))
 				{
